@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="page-selector">
+      <div class="heading">All pages</div>
+      <hr>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="select-all" />
+          <span class="page-label">Select all</span>
+        </label>
+        <label>
+          <input type="checkbox" class="page-checkbox" value="Page 1" />
+          <span class="page-label">Page 1</span>
+        </label>
+        <label>
+          <input type="checkbox" class="page-checkbox" value="Page 2" />
+          <span class="page-label">Page 2</span>
+        </label>
+        <label>
+          <input type="checkbox" class="page-checkbox" value="Page 3" />
+          <span class="page-label">Page 3</span>
+        </label>
+        <label>
+          <input type="checkbox" class="page-checkbox" value="Page 4" />
+          <span class="page-label">Page 4</span>
+        </label>
+      </div>
+      <div class="button-container">
+        <button class="done-button" onclick="submitSelection()">Done</button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
